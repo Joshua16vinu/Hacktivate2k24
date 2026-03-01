@@ -21,9 +21,10 @@ To prevent exposing credentials to public repositories (like GitHub), we use env
 3. Copy the contents of `.env.example` into your new `.env` file and replace the placeholder strings with your actual Firebase Configuration credentials.
 
 ```bash
-REACT_APP_FIREBASE_API_KEY="your_api_key_here"
-REACT_APP_FIREBASE_AUTH_DOMAIN="your_auth_domain_here"
-# ...etc
+REACT_APP_FIREBASE_API_KEY="your_firebase_api_key_here"
+REACT_APP_FIREBASE_AUTH_DOMAIN="your_firebase_auth_domain_here"
+# ...other firebase config
+REACT_APP_GEMINI_API_KEY="your_gemini_api_key_here"
 ```
 
 *Note: The `.env` file is excluded from git via `.gitignore` to ensure your keys remain safe!*
